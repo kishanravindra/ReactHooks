@@ -16,5 +16,10 @@ input {
 }
 
 .button:hover {
-    background-color: palevioletred; 
+    background-color: rgb(228, 168, 79);
+}
+
+.form {
+        display: flex;
+        justify-content: center;
 }

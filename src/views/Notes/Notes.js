@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import Note from './Note/Note';
-import Header from '../../components/Header/Header';
 import './Notes.css';
 
 const notes = (props) => {
@@ -40,8 +39,7 @@ const notes = (props) => {
 
       return (
          <div>
-             <Header headerTitle={'React Hooks : TODO LIST (UseState)'}/>
-             <form style={{ display: 'flex',justifyContent: 'center'}} onSubmit={(e) => submitHandler(e, message, setMessage)}>
+             <form className='form' onSubmit={(e) => submitHandler(e, message, setMessage)}>
                  <input onChange={(e) => setMessage(e.target.value)} value={message}/>
                  <button className='button'>Submit</button>
              </form>

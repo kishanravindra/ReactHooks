@@ -1,0 +1,24 @@
+.Navigation {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    height: 100%;
+    background-color: #4CAF50;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+.Navigation a:hover,
+.Navigation a:active,
+.Navigation a.active {
+    background-color: rgb(152, 192, 154);
+    border-bottom: 4px solid white;
+    color: white;
+}
+
+
+
+
+
+
