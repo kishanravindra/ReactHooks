@@ -1,0 +1,20 @@
+input {
+    padding: 12px;
+    width: 40%;
+    outline: 0;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: palevioletred; 
+}

@@ -1,0 +1,13 @@
+.Header {
+    display: flex;
+    background-color: #4CAF50;
+    height: 64px;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+h3 {
+    color: white;
+}
+
