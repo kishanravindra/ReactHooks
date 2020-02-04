@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+/* eslint-disable react/prefer-stateless-function */
+import React, { Component } from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import './App.css';
-import Layout from './container/Layout/Layout';
+import "./App.css";
+import Layout from "./container/Layout/Layout";
 
 
 class App extends Component {

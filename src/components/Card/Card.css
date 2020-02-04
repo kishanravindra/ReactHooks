@@ -1,0 +1,15 @@
+.Card{
+    background:#4CAF50;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 30vh;
+    color: white;
+}
+
+
+.Div {
+    margin-top: 20px;
+}
